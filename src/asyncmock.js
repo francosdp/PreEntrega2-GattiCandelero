@@ -17,3 +17,12 @@ export const getProducts=()=>{
         }, 2000);
     })
 }
+
+export const callProduct=(id)=>{
+    return new Promise ((resolve)=>{
+        setTimeout(()=>{
+            const producto = bigShopProductos.find (item=>item.id === id)
+            resolve(producto)
+        },2000)
+    })
+}
