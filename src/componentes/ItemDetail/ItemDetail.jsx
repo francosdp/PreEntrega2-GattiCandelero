@@ -1,7 +1,9 @@
+import './ItemDetail.css';
+
 
 const ItemDetail = ({ id, nombre, precio, img }) => {
     return (
-        <div>
+        <div className='productContainer'>
             <h2>Nombre: {nombre}</h2>
             <p>Precio: {precio}</p>
             <p>ID: {id}</p>

@@ -23,7 +23,7 @@ const ItemListContainer = () => {
     return (
         <>
             <h2 style={{ textAling: "center", color: "red" }}>Productos</h2>
-            <ItemList productos={productos} />
+            <ItemList productos={productos}/>
         </>
     )
 }

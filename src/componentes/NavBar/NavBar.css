@@ -1,11 +1,11 @@
 header{
     display: flex;
     flex-direction: row;
-    background-color: lightskyblue;
+    background-color: rgb(105, 233, 226);
 
 }
 nav{
-background-color: aqua;
+background-color: rgba(119, 241, 125, 0.842);
 width:40%;
 }
 ul{
