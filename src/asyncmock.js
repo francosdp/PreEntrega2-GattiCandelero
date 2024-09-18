@@ -14,7 +14,7 @@ export const getProducts = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(bigShopProductos)
-        }, 2000);
+        }, 100);
     })
 }
 
@@ -23,7 +23,7 @@ export const callProduct = (id) => {
         setTimeout(() => {
             const producto = bigShopProductos.find(item => item.id === id)
             resolve(producto)
-        }, 2000)
+        }, 100)
     })
 }
 
